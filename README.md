@@ -100,28 +100,6 @@ The pretrained models will be released after the paper is accepted.
 
 ---
 
-## Training
-
-### Train on LEVIR-CD
-
-```bash
-python tools/train.py configs/gfanet/gfanet_levir.py
-```
-
-### Train on WHU-CD
-
-```bash
-python tools/train.py configs/gfanet/gfanet_whu.py
-```
-
-### Train on JL1-CD
-
-```bash
-python tools/train.py configs/gfanet/gfanet_jl1.py
-```
-
----
-
 ## Quantitative Results
 
 ### LEVIR-CD
