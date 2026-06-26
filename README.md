@@ -147,20 +147,6 @@ Detailed results will be updated soon.
 
 ---
 
-## Visualization
-
-Representative visualization results will be provided in the `assets/` folder.
-
-```text
-assets/
-├── framework.png
-├── visualization_levir.png
-├── visualization_whu.png
-└── visualization_jl1.png
-```
-
----
-
 ## Acknowledgement
 
 This project is developed based on PyTorch, Open-CD, and MMEngine. We sincerely thank the authors and contributors of these open-source projects.
