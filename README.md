@@ -88,42 +88,6 @@ pip install -v -e .
 
 ---
 
-## Model Zoo
-
-The pretrained models will be released after the paper is accepted.
-
-| Dataset  | Backbone | Precision | Recall | Fscore |   IoU | Checkpoint  |
-| -------- | -------- | --------: | -----: | -----: | ----: | ----------- |
-| LEVIR-CD | MiT      |     87.60 |  87.88 |  87.74 | 77.58 | Coming soon |
-| WHU-CD   | MiT      |         - |      - |  94.50 | 89.57 | Coming soon |
-| JL1-CD   | MiT      |         - |      - |  84.80 | 75.37 | Coming soon |
-
----
-
-## Quantitative Results
-
-### LEVIR-CD
-
-| Method       | Backbone   | Precision |    Recall |    Fscore |       IoU |
-| ------------ | ---------- | --------: | --------: | --------: | --------: |
-| FC-EF        | CNN        |     64.93 |     68.20 |     66.52 |     49.84 |
-| FC-Siam-conc | CNN        |     78.44 |     73.93 |     76.12 |     61.44 |
-| FC-Siam-diff | CNN        |     81.16 |     69.72 |     75.00 |     60.00 |
-| STANet       | ResNet-18  |     82.77 |     78.68 |     80.67 |     66.76 |
-| IFN          | VGG-16     |     84.97 |     84.15 |     84.55 |     73.24 |
-| BIT          | ResNet-18  |     83.63 |     83.52 |     83.58 |     71.79 |
-| ChangeStar   | ResNet-18  |     87.74 |     80.23 |     83.82 |     72.14 |
-| Changer      | MiT        |     86.14 |     84.44 |     85.28 |     74.34 |
-| TTP          | SAM        |     89.02 |     83.96 |     86.42 |     73.67 |
-| BAN          | ViT-L      |     87.66 |     82.42 |     84.96 |     72.56 |
-| SEED         | Swin-Trans |     86.79 |     82.93 |     84.82 |     74.68 |
-| **GFANet**   | **MiT**    | **87.60** | **87.88** | **87.74** | **77.58** |
-
-### WHU-CD and JL1-CD
-
-Detailed results will be updated soon.
-
----
 
 ## Acknowledgement
 
